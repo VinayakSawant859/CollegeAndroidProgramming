@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="top|left|fill_vertical"
         android:layout_marginTop="80dp"
-        android:text="Primitive"
+        android:text="     Primitive"
         android:textSize="20dp" />
 
     <LinearLayout
