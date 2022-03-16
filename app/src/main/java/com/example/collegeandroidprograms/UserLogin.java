@@ -35,11 +35,5 @@ public class UserLogin extends AppCompatActivity {
             }
         });
 
-        notify.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(UserLogin.this, PersonalInfo.class ));
-            }
-        });
     }
 }
