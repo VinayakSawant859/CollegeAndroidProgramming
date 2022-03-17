@@ -23,6 +23,9 @@ public class HelloWorld extends AppCompatActivity {
         Button prac7_1 = (Button) findViewById(R.id.prac7_1);
         Button prac7_2 = (Button) findViewById(R.id.prac7_2);
         Button prac8_1 = (Button) findViewById(R.id.prac8_1);
+        Button prac8_2 = (Button) findViewById(R.id.prac8_2);
+        Button prac9_1 = (Button) findViewById(R.id.prac9_1);
+        Button prac9_2 = (Button) findViewById(R.id.prac9_2);
 
         prac4_2.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -77,6 +80,27 @@ public class HelloWorld extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(HelloWorld.this, AutoCompleteTxtView.class));
+            }
+        });
+
+        prac8_2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(HelloWorld.this, SixthSemSubjects.class));
+            }
+        });
+
+        prac9_1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(HelloWorld.this, BluetoothToggle.class));
+            }
+        });
+
+        prac9_2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(HelloWorld.this, SimpleCalculator.class));
             }
         });
     }

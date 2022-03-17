@@ -4,24 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AutoCompleteTxtView">
+    tools:context=".SixthSemSubjects">
 
     <AutoCompleteTextView
-        android:id="@+id/autoCompleteTextView"
+        android:id="@+id/autoCompleteTextView2"
         android:layout_width="344dp"
         android:layout_height="67dp"
         android:background="#000000"
-        android:hint="Enter Your State: "
-        android:padding="15dp"
-        android:textSize="17dp"
-        android:textColorHint="#59FF00"
-        android:textColor="#59FF00"
         android:fontFamily="serif-monospace"
+        android:hint="Enter Semester: "
+        android:padding="10dp"
+        android:textSize="17dp"
+        android:textColor="#25FF00"
+        android:textColorHint="#25FF00"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.147" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
