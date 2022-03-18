@@ -26,6 +26,8 @@ public class HelloWorld extends AppCompatActivity {
         Button prac8_2 = (Button) findViewById(R.id.prac8_2);
         Button prac9_1 = (Button) findViewById(R.id.prac9_1);
         Button prac9_2 = (Button) findViewById(R.id.prac9_2);
+        Button prac10_1 = (Button) findViewById(R.id.prac10_1);
+        Button prac10_2 = (Button) findViewById(R.id.prac10_2);
 
         prac4_2.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -101,6 +103,20 @@ public class HelloWorld extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(HelloWorld.this, SimpleCalculator.class));
+            }
+        });
+
+        prac10_1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(HelloWorld.this, SocialLoginForm.class));
+            }
+        });
+
+        prac10_2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(HelloWorld.this, SchoolLoginForm.class));
             }
         });
     }
