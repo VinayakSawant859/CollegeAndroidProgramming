@@ -33,11 +33,11 @@ public class BluetoothToggle extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if (bluetoothToggle.isChecked() == false) {
-                    alertBT.setText("Bluetooth is disabled");
+                    alertBT.setText(" Bluetooth is disabled ");
                     blutoothIMG.setBackgroundResource(R.drawable.bluetoothoff);
                 }
                 else if (bluetoothToggle.isChecked() == true){
-                    alertBT.setText("Bluetooth is enabled");
+                    alertBT.setText(" Bluetooth is enabled ");
                     blutoothIMG.setBackgroundResource(R.drawable.bluetooth);
                 }
             }
