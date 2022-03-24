@@ -15,47 +15,47 @@
         app:layout_constraintHorizontal_bias="0.551"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499">
+        app:layout_constraintVertical_bias="0.546">
 
 
         <Button
-            android:id="@+id/prac10.2"
+            android:id="@+id/prac13.2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
-            android:text="10.2"
+            android:text="13.2"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="206dp" />
 
         <Button
-            android:id="@+id/prac11.1"
+            android:id="@+id/prac14.1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
-            android:text="11.1"
+            android:text="14.1"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="121dp" />
 
         <Button
-            android:id="@+id/prac11.2"
+            android:id="@+id/prac14.2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
-            android:text="11.2"
+            android:text="14.2"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="16dp" />
 
         <Button
-            android:id="@+id/prac12.1"
+            android:id="@+id/prac14.3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="12.1"
+            android:text="14.3"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="MissingConstraints"
@@ -72,7 +72,64 @@
         app:layout_constraintHorizontal_bias="0.551"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.285">
+        app:layout_constraintVertical_bias="0.453">
+
+
+        <Button
+            android:id="@+id/prac10.2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="10.2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="206dp" />
+
+        <Button
+            android:id="@+id/prac11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="11"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="121dp" />
+
+        <Button
+            android:id="@+id/prac12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="12"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <Button
+            android:id="@+id/prac13.1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13.1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="297dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.27">
 
 
         <Button
@@ -126,6 +183,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/secular_one"
         android:text="Hello World!"
+        android:textColor="@color/black"
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -202,7 +260,7 @@
         app:layout_constraintHorizontal_bias="0.551"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.389">
+        app:layout_constraintVertical_bias="0.363">
 
 
         <Button

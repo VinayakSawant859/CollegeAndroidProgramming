@@ -3,14 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioProjects/College Android Programs/app/src/main/res/drawable/circle_shape.xml" value="0.2595" />
+        <entry key="..\:/AndroidStudioProjects/College Android Programs/app/src/main/res/drawable/circular_progress_bar.xml" value="0.2595" />
         <entry key="..\:/AndroidStudioProjects/College Android Programs/app/src/main/res/drawable/ic_owner.xml" value="0.263" />
         <entry key="..\:/AndroidStudioProjects/College Android Programs/app/src/main/res/layout/activity_absolute_layout.xml" value="0.2833333333333333" />
         <entry key="..\:/AndroidStudioProjects/College Android Programs/app/src/main/res/layout/activity_auto_complete_txt_view.xml" value="0.2833333333333333" />
         <entry key="..\:/AndroidStudioProjects/College Android Programs/app/src/main/res/layout/activity_bluetooth_toggle.xml" value="0.2833333333333333" />
+        <entry key="..\:/AndroidStudioProjects/College Android Programs/app/src/main/res/layout/activity_circular_progress_bar.xml" value="0.18857142857142858" />
+        <entry key="..\:/AndroidStudioProjects/College Android Programs/app/src/main/res/layout/activity_five_check_boxes.xml" value="0.2947916666666667" />
         <entry key="..\:/AndroidStudioProjects/College Android Programs/app/src/main/res/layout/activity_frame_layout.xml" value="0.2833333333333333" />
+        <entry key="..\:/AndroidStudioProjects/College Android Programs/app/src/main/res/layout/activity_horizonatal_progress_bar.xml" value="0.2947916666666667" />
         <entry key="..\:/AndroidStudioProjects/College Android Programs/app/src/main/res/layout/activity_linear_layout.xml" value="0.2833333333333333" />
         <entry key="..\:/AndroidStudioProjects/College Android Programs/app/src/main/res/layout/activity_main.xml" value="0.2833333333333333" />
         <entry key="..\:/AndroidStudioProjects/College Android Programs/app/src/main/res/layout/activity_personal_info.xml" value="0.2833333333333333" />
+        <entry key="..\:/AndroidStudioProjects/College Android Programs/app/src/main/res/layout/activity_radio_button.xml" value="0.2857142857142857" />
         <entry key="..\:/AndroidStudioProjects/College Android Programs/app/src/main/res/layout/activity_school_login_form.xml" value="0.2833333333333333" />
         <entry key="..\:/AndroidStudioProjects/College Android Programs/app/src/main/res/layout/activity_simple_calculator.xml" value="0.2857142857142857" />
         <entry key="..\:/AndroidStudioProjects/College Android Programs/app/src/main/res/layout/activity_sixth_sem_subjects.xml" value="0.3828571428571429" />
@@ -18,6 +24,7 @@
         <entry key="..\:/AndroidStudioProjects/College Android Programs/app/src/main/res/layout/activity_student_name.xml" value="0.2833333333333333" />
         <entry key="..\:/AndroidStudioProjects/College Android Programs/app/src/main/res/layout/activity_table_layout.xml" value="0.2833333333333333" />
         <entry key="..\:/AndroidStudioProjects/College Android Programs/app/src/main/res/layout/activity_user_login.xml" value="0.2833333333333333" />
+        <entry key="..\:/AndroidStudioProjects/College Android Programs/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2595" />
         <entry key="..\:/AndroidStudioProjects/College Android Programs/app/src/main/res/xml/styles.xml" value="0.2833333333333333" />
       </map>
     </option>

@@ -28,6 +28,14 @@ public class HelloWorld extends AppCompatActivity {
         Button prac9_2 = (Button) findViewById(R.id.prac9_2);
         Button prac10_1 = (Button) findViewById(R.id.prac10_1);
         Button prac10_2 = (Button) findViewById(R.id.prac10_2);
+        Button prac11   = (Button) findViewById(R.id.prac11);
+        Button prac12   = (Button) findViewById(R.id.prac12);
+        Button prac13_1 = (Button) findViewById(R.id.prac13_1);
+        Button prac13_2 = (Button) findViewById(R.id.prac13_2);
+        Button prac14_1 = (Button) findViewById(R.id.prac14_1);
+        Button prac14_2 = (Button) findViewById(R.id.prac14_2);
+        Button prac14_3 = (Button) findViewById(R.id.prac14_3);
+
 
         prac4_2.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -117,6 +125,34 @@ public class HelloWorld extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(HelloWorld.this, SchoolLoginForm.class));
+            }
+        });
+
+        prac11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(HelloWorld.this, FiveCheckBoxes.class));
+            }
+        });
+
+        prac12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(HelloWorld.this, RadioButton.class));
+            }
+        });
+
+        prac13_1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(HelloWorld.this, CircularProgressBar.class));
+            }
+        });
+
+        prac13_2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(HelloWorld.this, HorizonatalProgressBar.class));
             }
         });
     }

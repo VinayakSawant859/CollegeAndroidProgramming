@@ -8,7 +8,7 @@ import android.widget.AutoCompleteTextView;
 
 public class AutoCompleteTxtView extends AppCompatActivity {
 
-    String[] states = {"Maharahtra", "Tamil Nadu", "Goa", "Manipur", "Kolkata", "Gujrat", "Madhya Pradesh", "Rajasthan"};
+    String[] states = {"Maharashtra", "Tamil Nadu", "Goa", "Manipur", "Kolkata", "Gujrat", "Madhya Pradesh", "Rajasthan"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
