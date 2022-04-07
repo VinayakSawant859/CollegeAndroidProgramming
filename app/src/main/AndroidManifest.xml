@@ -2,8 +2,19 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.collegeandroidprograms">
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
 
     <application
         android:allowBackup="true"
@@ -12,6 +23,90 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CollegeAndroidPrograms">
+        <activity
+            android:name=".SMSManagerExample"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".DisplayContacts"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".SQLiteAsyncTaskExample"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".AnimationExample"
+            android:exported="false" />
+        <activity
+            android:name=".BluetoothAdminExample"
+            android:exported="false" />
+        <activity
+            android:name=".VideoRecordingExample"
+            android:exported="false" />
+        <activity
+            android:name=".CameraCaptureExample"
+            android:exported="false" />
+        <activity
+            android:name=".SensorsListExample"
+            android:exported="false" />
+        <activity
+            android:name=".AndroidSensorsExample"
+            android:exported="false" />
+        <activity
+            android:name=".BroadcastReceiverExample"
+            android:exported="false" />
+        <activity
+            android:name=".CustomServiceExample"
+            android:exported="false" />
+        <activity
+            android:name=".WiFiServiceToggle"
+            android:exported="false" />
+        <activity
+            android:name=".ContentProviderExample"
+            android:exported="false" />
+        <activity
+            android:name=".FactorialActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FactorialIntentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StartDialerExample"
+            android:exported="false" />
+        <activity
+            android:name=".WebViewSearch"
+            android:exported="false" />
+        <activity
+            android:name=".WebViewNavigate"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityLifeCycle"
+            android:exported="false" />
+        <activity
+            android:name=".HelloWorld2"
+            android:exported="false" />
+        <activity
+            android:name=".DateViewInEditText"
+            android:exported="false" />
+        <activity
+            android:name=".DateAndTimeExample"
+            android:exported="false" />
+        <activity
+            android:name=".CheckBoxExample"
+            android:exported="false" />
+        <activity
+            android:name=".ToastExample"
+            android:exported="false" />
+        <activity
+            android:name=".ScrollViewExample"
+            android:exported="false" />
+        <activity
+            android:name=".ImageViewExample"
+            android:exported="false" />
+        <activity
+            android:name=".ListViewUsingArrayAdpt"
+            android:exported="false" />
         <activity
             android:name=".HorizonatalProgressBar"
             android:exported="false" />
@@ -72,6 +167,27 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <provider
+            android:name=".StudentsProvider"
+            android:authorities="com.example.collegeandroidprograms.UserProvider" />
+
+        <service android:name=".MyService" />
+
+        <receiver
+            android:name=".ConnectionReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".MessageReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED"/>
+            </intent-filter>
+        </receiver>
 
         <meta-data
             android:name="preloaded_fonts"

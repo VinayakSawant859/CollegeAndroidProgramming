@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.RadioGroup;
 import android.widget.Toast;
 
 public class RadioButton extends AppCompatActivity {
@@ -17,9 +18,7 @@ public class RadioButton extends AppCompatActivity {
 
         radioButton1 = findViewById(R.id.radioButton1);
         radioButton2 = findViewById(R.id.radioButton2);
-        male = findViewById(R.id.male);
-        female = findViewById(R.id.female);
-        other = findViewById(R.id.other);
+        RadioGroup radioGroup = (RadioGroup) findViewById(R.id.radioGroup);
         Button showSelected = (Button) findViewById(R.id.showSelected);
 
 

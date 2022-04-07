@@ -1,10 +1,13 @@
-package com.example.collegeandroidprograms;
+//TODO Practical No. 8: Develop a program to implement Auto Complete Text View.
+//Ques 1. Write a program to create a first display screen of any search engine using Auto Complete Text View.
 
-import androidx.appcompat.app.AppCompatActivity;
+package com.example.collegeandroidprograms;
 
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class AutoCompleteTxtView extends AppCompatActivity {
 

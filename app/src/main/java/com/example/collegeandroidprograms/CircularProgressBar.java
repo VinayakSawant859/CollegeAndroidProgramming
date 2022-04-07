@@ -1,6 +1,7 @@
-package com.example.collegeandroidprograms;
+//TODO Practical No. 13: Develop a program to implement Progress Bar
+//Ques 1: Write a program to display circular progress bar.
 
-import androidx.appcompat.app.AppCompatActivity;
+package com.example.collegeandroidprograms;
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -8,6 +9,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class CircularProgressBar extends AppCompatActivity {
 

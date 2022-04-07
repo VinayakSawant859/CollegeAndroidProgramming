@@ -1,18 +1,15 @@
+//TODO Practical No. 9: Develop a program to implement Button, Image Button and Toggle Button.
+//1. Write a program to create a toggle button to display ON / OFF Bluetooth on the display screen.
+
 package com.example.collegeandroidprograms;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.ActivityCompat;
-
-import android.Manifest;
-import android.bluetooth.BluetoothAdapter;
-import android.content.Intent;
-import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 import android.widget.ToggleButton;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class BluetoothToggle extends AppCompatActivity {
 

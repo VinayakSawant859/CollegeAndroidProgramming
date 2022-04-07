@@ -1,11 +1,11 @@
+//TODO Practical No. 5: Develop a program to implement linear layout and absolute layout.
+//Ques 2. Write a program to place Name, Age and mobile number centrally on the display screen using Absolute layout.
+
 package com.example.collegeandroidprograms;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class AbsoluteLayout extends AppCompatActivity {
 
@@ -14,5 +14,5 @@ public class AbsoluteLayout extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_absolute_layout);
 
-    }
+       }
 }
