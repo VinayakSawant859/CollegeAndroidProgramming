@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:collapseColumns="*"
     android:shrinkColumns="*"
-    tools:context=".TableLayout"
+    tools:context=".Prac6_1TableLayout"
     android:id="@+id/TL">
 
     <TableRow

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/bg"
     android:backgroundTint="#171515"
-    tools:context=".SocialLoginForm">
+    tools:context=".Prac10_1SocialLoginForm">
 
     <TextView
         android:id="@+id/textView4"

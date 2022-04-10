@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/bg"
     android:backgroundTint="#E8F8CECE"
-    tools:context=".ImageViewExample">
+    tools:context=".Prac14_2ImageViewExample">
 
     <ImageView
         android:id="@+id/lifeCycle"

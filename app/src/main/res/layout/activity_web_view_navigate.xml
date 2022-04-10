@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Go to http://www.google.com"
-        android:textSize="15sp"
+        android:textSize="10sp"
         android:fontFamily="@font/secular_one"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

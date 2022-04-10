@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/bg"
     android:backgroundTint="#B7CAEF"
-    tools:context=".FiveCheckBoxes">
+    tools:context=".Prac11FiveCheckBoxes">
 
     <LinearLayout
         android:id="@+id/ll3"

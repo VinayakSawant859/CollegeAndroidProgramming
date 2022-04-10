@@ -14,7 +14,7 @@
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.SEND_SMS" />
-    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
 
     <application
         android:allowBackup="true"
@@ -24,142 +24,156 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CollegeAndroidPrograms">
         <activity
-            android:name=".SMSManagerExample"
+            android:name=".Prac28_LoginActivityWithValidation"
+            android:exported="false" />
+        <activity
+            android:name=".Prac30EmailClientExample"
+            android:exported="false" />
+        <activity
+            android:name=".Prac27HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Prac27LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Prac27LoginAndRegisterUsingSQLIte"
+            android:exported="false" />
+        <activity
+            android:name=".Prac29SMSManagerExample"
+            android:exported="false" />
+        <activity
+            android:name=".Prac26DisplayContacts"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
         <activity
-            android:name=".DisplayContacts"
+            android:name=".Prac26SQLiteAsyncTaskExample"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
         <activity
-            android:name=".SQLiteAsyncTaskExample"
-            android:exported="false"
-            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
-        <activity
-            android:name=".AnimationExample"
+            android:name=".Prac25AnimationExample"
             android:exported="false" />
         <activity
-            android:name=".BluetoothAdminExample"
+            android:name=".Prac24BluetoothAdminExample"
             android:exported="false" />
         <activity
-            android:name=".VideoRecordingExample"
+            android:name=".Prac23_2VideoRecordingExample"
             android:exported="false" />
         <activity
-            android:name=".CameraCaptureExample"
+            android:name=".Prac23_1CameraCaptureExample"
             android:exported="false" />
         <activity
-            android:name=".SensorsListExample"
+            android:name=".Prac22_2SensorsListExample"
             android:exported="false" />
         <activity
-            android:name=".AndroidSensorsExample"
+            android:name=".Prac22_1AndroidSensorsExample"
             android:exported="false" />
         <activity
-            android:name=".BroadcastReceiverExample"
+            android:name=".Prac21BroadcastReceiverExample"
             android:exported="false" />
         <activity
-            android:name=".CustomServiceExample"
+            android:name=".Prac20_2CustomServiceExample"
             android:exported="false" />
         <activity
-            android:name=".WiFiServiceToggle"
+            android:name=".Prac20_1WiFiServiceToggle"
             android:exported="false" />
         <activity
-            android:name=".ContentProviderExample"
+            android:name=".Prac19ContentProviderExample"
             android:exported="false" />
         <activity
-            android:name=".FactorialActivity"
+            android:name=".Prac18_3FactorialActivity"
             android:exported="false" />
         <activity
-            android:name=".FactorialIntentActivity"
+            android:name=".Prac18_3FactorialIntentActivity"
             android:exported="false" />
         <activity
-            android:name=".StartDialerExample"
+            android:name=".Prac18_2StartDialerExample"
             android:exported="false" />
         <activity
-            android:name=".WebViewSearch"
+            android:name=".Prac18_1WebViewSearchIntent"
             android:exported="false" />
         <activity
-            android:name=".WebViewNavigate"
+            android:name=".Prac18_1WebViewNavigate"
             android:exported="false" />
         <activity
-            android:name=".ActivityLifeCycle"
+            android:name=".Prac17ActivityLifeCycle"
             android:exported="false" />
         <activity
-            android:name=".HelloWorld2"
+            android:name=".MainPage2"
             android:exported="false" />
         <activity
-            android:name=".DateViewInEditText"
+            android:name=".Prac16_2DateViewInEditText"
             android:exported="false" />
         <activity
-            android:name=".DateAndTimeExample"
+            android:name=".Prac16_1DateAndTimeExample"
             android:exported="false" />
         <activity
-            android:name=".CheckBoxExample"
+            android:name=".Prac15_2CheckBoxExample"
             android:exported="false" />
         <activity
-            android:name=".ToastExample"
+            android:name=".Prac15_1ToastExample"
             android:exported="false" />
         <activity
-            android:name=".ScrollViewExample"
+            android:name=".Prac14_4ScrollViewExample"
             android:exported="false" />
         <activity
-            android:name=".ImageViewExample"
+            android:name=".Prac14_2ImageViewExample"
             android:exported="false" />
         <activity
-            android:name=".ListViewUsingArrayAdpt"
+            android:name=".Prac14_1ListViewUsingArrayAdpt"
             android:exported="false" />
         <activity
-            android:name=".HorizonatalProgressBar"
+            android:name=".Prac13_2HorizonatalProgressBar"
             android:exported="false" />
         <activity
-            android:name=".CircularProgressBar"
+            android:name=".Prac13_1CircularProgressBar"
             android:exported="false" />
         <activity
-            android:name=".RadioButton"
+            android:name=".Prac12RadioButton"
             android:exported="false" />
         <activity
-            android:name=".FiveCheckBoxes"
+            android:name=".Prac11FiveCheckBoxes"
             android:exported="false" />
         <activity
-            android:name=".SchoolLoginForm"
+            android:name=".Prac10_2SchoolLoginForm"
             android:exported="false" />
         <activity
-            android:name=".SocialLoginForm"
+            android:name=".Prac10_1SocialLoginForm"
             android:exported="false" />
         <activity
-            android:name=".SimpleCalculator"
+            android:name=".Prac9_2SimpleCalculator"
             android:exported="false" />
         <activity
-            android:name=".BluetoothToggle"
+            android:name=".Prac9_1BluetoothToggle"
             android:exported="false" />
         <activity
-            android:name=".SixthSemSubjects"
+            android:name=".Prac8_2SixthSemSubjects"
             android:exported="false" />
         <activity
-            android:name=".AutoCompleteTxtView"
+            android:name=".Prac8_1AutoCompleteTxtView"
             android:exported="false" />
         <activity
-            android:name=".PersonalInfo"
+            android:name=".Prac7_2PersonalInfo"
             android:exported="false" />
         <activity
-            android:name=".UserLogin"
+            android:name=".Prac7_1UserLogin"
             android:exported="false" />
         <activity
-            android:name=".FrameLayout"
+            android:name=".Prac6_2FrameLayout"
             android:exported="false" />
         <activity
-            android:name=".TableLayout"
+            android:name=".Prac6_1TableLayout"
             android:exported="false" />
         <activity
-            android:name=".AbsoluteLayout"
+            android:name=".Prac5_2AbsoluteLayout"
             android:exported="false" />
         <activity
-            android:name=".LinearLayout"
+            android:name=".Prac5_1LinearLayout"
             android:exported="false" />
         <activity
-            android:name=".StudentName"
+            android:name=".Prac4_2StudentName"
             android:exported="false" />
         <activity
-            android:name=".HelloWorld"
+            android:name=".MainPage1"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -169,23 +183,16 @@
         </activity>
 
         <provider
-            android:name=".StudentsProvider"
+            android:name=".Prac19StudentsProvider"
             android:authorities="com.example.collegeandroidprograms.UserProvider" />
 
-        <service android:name=".MyService" />
+        <service android:name=".Prac20_2MyService" />
 
         <receiver
-            android:name=".ConnectionReceiver"
+            android:name=".Prac21ConnectionReceiver"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-            </intent-filter>
-        </receiver>
-
-        <receiver android:name=".MessageReceiver"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.provider.Telephony.SMS_RECEIVED"/>
             </intent-filter>
         </receiver>
 

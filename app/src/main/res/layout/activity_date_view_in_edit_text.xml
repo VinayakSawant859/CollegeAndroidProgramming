@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/bg"
     android:backgroundTint="#C0EFD0"
-    tools:context=".DateViewInEditText">
+    tools:context=".Prac16_2DateViewInEditText">
 
 
     <Button

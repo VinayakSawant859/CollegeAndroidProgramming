@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#000000"
-    tools:context=".ScrollViewExample">
+    tools:context=".Prac14_4ScrollViewExample">
 
     <ScrollView
         android:layout_width="fill_parent"

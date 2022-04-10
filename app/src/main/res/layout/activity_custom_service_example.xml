@@ -5,7 +5,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CustomServiceExample">
+    tools:context=".Prac20_2CustomServiceExample">
 
     <Button
         android:id="@+id/service_stop"
