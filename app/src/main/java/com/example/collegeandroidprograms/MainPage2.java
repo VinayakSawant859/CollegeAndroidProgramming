@@ -1,6 +1,7 @@
 package com.example.collegeandroidprograms;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
@@ -154,8 +155,20 @@ public class MainPage2 extends AppCompatActivity {
             public void onClick(View view) {
                 authorINFO.setText("Developer: Vinayak Suresh Sawant\n" +
                                     "Course: Information Technology\n" +
-                                    "MH Saboo Siddik Polytechnic");
-                thanksIMG.setImageResource(R.drawable.namaste);
+                                    "Subject: Mobile Application Development\n"+
+                                    "Roll no: 19819\n"+
+                                    "Semester: VI\n"+
+                                    "Institute: MH Saboo Siddik Polytechnic");
+                thanksIMG.setImageResource(R.drawable.github);
+            }
+        });
+
+        thanksIMG.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse("https://github.com/VinayakSawant859/CollegeAndroidProgramming.git"));
+                startActivity(i);
             }
         });
     }
