@@ -1,16 +1,19 @@
 package com.example.collegeandroidprograms;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CompoundButton;
+import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 public class Prac12RadioButton extends AppCompatActivity {
 
-    android.widget.RadioButton radioButton1, radioButton2, male, female, other;
+    RadioButton genderButton, radioButton1, radioButton2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,30 +25,31 @@ public class Prac12RadioButton extends AppCompatActivity {
         Button showSelected = (Button) findViewById(R.id.showSelected);
 
 
+        radioButton1.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                Toast.makeText(Prac12RadioButton.this, radioButton1.getText(), Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        radioButton2.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
+                Toast.makeText(Prac12RadioButton.this, radioButton2.getText(), Toast.LENGTH_SHORT).show();
+            }
+        });
+
         showSelected.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (radioButton1.isChecked() & radioButton2.isChecked()){
-                    Toast.makeText(Prac12RadioButton.this, "You enabled Radio Button 1 and 2", Toast.LENGTH_SHORT).show();
-                }
-                else if (radioButton1.isChecked()){
-                    Toast.makeText(Prac12RadioButton.this, "You enabled Radio Button 1", Toast.LENGTH_SHORT).show();
-                }
-                else if (radioButton2.isChecked()){
-                    Toast.makeText(Prac12RadioButton.this, "You enabled Radio Button 2", Toast.LENGTH_SHORT).show();
-                }
-
-                //////////**********///////////
-
-                if (male.isChecked()){
-                    Toast.makeText(Prac12RadioButton.this, "You selected Male", Toast.LENGTH_SHORT).show();
-                }
-                else if (female.isChecked()){
-                    Toast.makeText(Prac12RadioButton.this, "You selected Female", Toast.LENGTH_SHORT).show();
-                }
-                else if (other.isChecked()){
-                    Toast.makeText(Prac12RadioButton.this, "You selected Other", Toast.LENGTH_SHORT).show();
-                }
+            int selectedID = radioGroup.getCheckedRadioButtonId();
+            genderButton = findViewById(selectedID);
+            if (selectedID == 1){
+                Toast.makeText(Prac12RadioButton.this, "Nothing Selected", Toast.LENGTH_SHORT).show();
+            }
+            else {
+                Toast.makeText(Prac12RadioButton.this, genderButton.getText(), Toast.LENGTH_SHORT).show();
+            }
             }
         });
 

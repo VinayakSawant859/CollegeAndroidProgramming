@@ -204,7 +204,7 @@ public class MainPage1 extends AppCompatActivity {
         prac14_3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainPage1.this, Prac14_2ImageViewExample.class));
+                startActivity(new Intent(MainPage1.this, Prac14_3GridViewExample.class));
             }
         });
 

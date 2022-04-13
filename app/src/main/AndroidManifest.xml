@@ -15,6 +15,9 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.SEND_SMS" />
     <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -23,6 +26,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CollegeAndroidPrograms">
+        <activity
+            android:name=".Prac14_3SecondActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Prac14_3GridViewExample"
+            android:exported="false" />
+        <activity
+            android:name=".Prac31_Part1_MapActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+
+        <activity
+            android:name=".Prac31_Part2_RoutingMapExample"
+            android:exported="false" />
+        <activity
+            android:name=".Prac31_Part1_UserLocationExample"
+            android:exported="false" />
         <activity
             android:name=".Prac28_LoginActivityWithValidation"
             android:exported="false" />
