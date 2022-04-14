@@ -43,6 +43,7 @@ public class Prac18_3FactorialIntentActivity extends AppCompatActivity {
                     fact = fact*i;
                 }
                 bundle.putInt("ANSWER", fact);
+                bundle.putInt("NUMBER", num);
                 intent.putExtras(bundle);
                 startActivity(intent);
             }

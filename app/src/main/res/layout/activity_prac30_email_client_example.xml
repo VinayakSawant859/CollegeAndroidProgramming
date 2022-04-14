@@ -62,16 +62,16 @@
         android:layout_width="369dp"
         android:layout_height="378dp"
         android:layout_weight="1"
-        android:gravity="top"
-        android:hint="Content:"
         android:fontFamily="@font/secular_one"
+        android:gravity="top"
+        android:hint="Body:"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tV1"
-        app:layout_constraintVertical_bias="0.657" />
+        app:layout_constraintVertical_bias="0.638" />
 
     <Button
         android:id="@+id/buttonSend"

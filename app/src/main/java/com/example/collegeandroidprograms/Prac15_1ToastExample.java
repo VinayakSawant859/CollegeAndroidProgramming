@@ -20,7 +20,7 @@ public class Prac15_1ToastExample extends AppCompatActivity {
         showToast.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(Prac15_1ToastExample.this, sb.append("\n You have a new Mail!!!"), Toast.LENGTH_LONG).show();
+                Toast.makeText(Prac15_1ToastExample.this, sb.append("\n You have a new Mail!!!"), Toast.LENGTH_SHORT).show();
                 sb.delete(15, sb.length()-1);
             }
         });

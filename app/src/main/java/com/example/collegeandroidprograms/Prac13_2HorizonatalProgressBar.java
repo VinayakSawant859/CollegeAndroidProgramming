@@ -1,7 +1,5 @@
 package com.example.collegeandroidprograms;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
@@ -9,6 +7,8 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Prac13_2HorizonatalProgressBar extends AppCompatActivity {
 
@@ -33,6 +33,7 @@ public class Prac13_2HorizonatalProgressBar extends AppCompatActivity {
                 progressBar.setMessage("File is Downloading...");
                 progressBar.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
                 progressBar.setProgress(0);
+                progressBar.incrementProgressBy(10);
                 progressBar.setMax(100);
                 progressBar.show();
 

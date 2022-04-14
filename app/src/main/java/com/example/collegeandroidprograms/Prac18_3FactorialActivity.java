@@ -16,6 +16,7 @@ public class Prac18_3FactorialActivity extends AppCompatActivity {
         Bundle bundle = getIntent().getExtras();
         ficANS = findViewById(R.id.ficANS);
         int ans = bundle.getInt("ANSWER");
-        ficANS.setText("Factorial is: \n"+ans);
+        int num = bundle.getInt("NUMBER");
+        ficANS.setText("Factorial of "+num+" is: "+ans);
     }
 }

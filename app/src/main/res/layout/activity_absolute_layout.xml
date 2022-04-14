@@ -11,18 +11,18 @@
         android:id="@+id/TV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_x="19dp"
-        android:layout_y="290dp"
+        android:layout_x="27dp"
+        android:layout_y="272dp"
         android:background="@drawable/rectangle"
         android:fontFamily="@font/secular_one"
-        android:textColor="@color/black"
         android:gravity="center"
         android:paddingLeft="8dp"
         android:paddingTop="8dp"
         android:paddingRight="8dp"
         android:paddingBottom="8dp"
         android:text="Name: Vinayak Suresh Sawant\nAge: 20\nMobile: 9137234878"
-        android:textSize="25sp" />
+        android:textColor="@color/black"
+        android:textSize="22sp" />
 
 
 </AbsoluteLayout>

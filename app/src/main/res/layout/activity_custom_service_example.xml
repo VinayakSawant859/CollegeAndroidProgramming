@@ -7,6 +7,28 @@
     android:layout_height="match_parent"
     tools:context=".Prac20_2CustomServiceExample">
 
+    <TextView
+        android:id="@+id/logTXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle"
+        android:fontFamily="@font/headland_one"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:stateListAnimator="@anim/fadein"
+        android:text="Open LogCat for \noutput of service \nrunning in background"
+        android:textAlignment="center"
+        android:textColor="#FB0000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.729" />
+
     <Button
         android:id="@+id/service_stop"
         android:layout_width="wrap_content"
@@ -25,12 +47,12 @@
         android:id="@+id/service_start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="292dp"
+        android:layout_marginTop="216dp"
         android:fontFamily="@font/secular_one"
         android:text="Start My\n Service"
         android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
