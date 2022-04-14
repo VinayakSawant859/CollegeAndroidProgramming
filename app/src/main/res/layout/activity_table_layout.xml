@@ -12,14 +12,20 @@
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="54dp"
+        android:paddingBottom="10dp"
         android:gravity="center_horizontal">
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:fontFamily="sans-serif-black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/secular_one"
             android:text="Basic Information\nof 10 Students"
+            android:background="@drawable/rectangle"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
             android:textAlignment="center"
+            android:paddingBottom="10dp"
             android:textColor="#F44336"
             android:textSize="25sp" />
 
@@ -27,6 +33,7 @@
 
     <TableRow
         android:layout_width="match_parent"
+        android:paddingTop="10dp"
         android:layout_height="wrap_content">
 
         <TextView
@@ -316,6 +323,7 @@
 
     <TableRow
         android:layout_width="match_parent"
+        android:paddingBottom="10dp"
         android:layout_height="wrap_content">
 
         <TextView

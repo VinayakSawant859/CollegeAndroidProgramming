@@ -1,5 +1,6 @@
 package com.example.collegeandroidprograms;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -16,7 +17,7 @@ import butterknife.ButterKnife;
 
 public class MainPage2 extends AppCompatActivity {
 
-    private TextView thanks, authorINFO;
+    private TextView thanks, authorINFO, gitTXT;
     private ImageView thanksIMG;
 
     private static final int SWIPE_MIN_DISTANCE = 120;
@@ -24,6 +25,7 @@ public class MainPage2 extends AppCompatActivity {
     private static final int SWIPE_THRESHOLD_VELOCITY = 200;
     private GestureDetector gesture;
 
+    @SuppressLint("ResourceType")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,6 +35,7 @@ public class MainPage2 extends AppCompatActivity {
 
         gesture = new GestureDetector( this, new MainPage2.SwipeDetector());
         thanks = findViewById(R.id.thanks);
+        gitTXT = findViewById(R.id.gitTXT);
         authorINFO = findViewById(R.id.authorINFO);
         thanksIMG = findViewById(R.id.thanksIMG);
 
@@ -153,6 +156,7 @@ public class MainPage2 extends AppCompatActivity {
         thanks.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                authorINFO.setBackgroundResource(R.drawable.rectangle2);
                 authorINFO.setText("Developer: Vinayak Suresh Sawant\n" +
                                     "Course: Information Technology\n" +
                                     "Subject: Mobile Application Development\n"+
@@ -160,6 +164,8 @@ public class MainPage2 extends AppCompatActivity {
                                     "Semester: VI\n"+
                                     "Institute: MH Saboo Siddik Polytechnic");
                 thanksIMG.setImageResource(R.drawable.github);
+                gitTXT.setText("Github\nLink");
+
             }
         });
 

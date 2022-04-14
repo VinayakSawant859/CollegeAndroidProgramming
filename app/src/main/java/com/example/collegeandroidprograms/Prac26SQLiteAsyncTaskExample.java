@@ -73,6 +73,10 @@ public class Prac26SQLiteAsyncTaskExample extends AppCompatActivity {
 
                 startActivity(intent);
                 return true;
+
+            case R.id.item2:
+                startActivity(new Intent(Prac26SQLiteAsyncTaskExample.this, MainPage2.class));
+
             default:
                 return super.onOptionsItemSelected(item);
         }

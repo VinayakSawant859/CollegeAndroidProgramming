@@ -8,18 +8,36 @@
     >
 
 
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle"
+        android:fontFamily="@font/secular_one"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:text="ToggleButton Example"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/blutoothIMG"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.362" />
 
     <ToggleButton
         android:id="@+id/bluetoothToggle"
         android:layout_width="107dp"
         android:layout_height="61dp"
-        android:text="ToggleButton"
         android:checked="false"
+        android:text="ToggleButton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.32" />
+        app:layout_constraintVertical_bias="0.453" />
 
     <ImageView
         android:id="@+id/blutoothIMG"
@@ -31,8 +49,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.1"
-        app:srcCompat="@drawable/bluetoothoff" />
+        app:layout_constraintVertical_bias="0.251" />
 
     <TextView
         android:id="@+id/alertBT"
@@ -40,7 +57,7 @@
         android:layout_height="wrap_content"
         android:text=""
         android:textSize="30dp"
-        android:fontFamily="@font/secular_one"
+        android:fontFamily="@font/fira_mono"
         android:textColor="#0CF804"
         android:background="#000000"
         app:layout_constraintBottom_toBottomOf="parent"

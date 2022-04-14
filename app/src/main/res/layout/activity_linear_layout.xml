@@ -4,23 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_gravity="center"
     android:orientation="vertical"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
     tools:context=".Prac5_1LinearLayout"
     android:id="@+id/linearLayout">
 
 
     <TextView
         android:id="@+id/TV"
-        android:layout_width="359dp"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_weight="1"
-        android:fontFamily="sans-serif-black"
+        android:fontFamily="@font/secular_one"
+        android:textColor="@color/black"
+        android:background="@drawable/rectangle"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
         android:gravity="center"
         android:text="Name: Vinayak Suresh Sawant\nAge: 20\nMobile: 9137234878"        android:textAlignment="gravity"
         android:textSize="25sp" />
-
-
-
 </LinearLayout>
